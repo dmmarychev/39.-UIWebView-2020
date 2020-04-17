@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0113A391244984A400BEE00E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0113A390244984A400BEE00E /* AppDelegate.m */; };
+		0113A394244984A400BEE00E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0113A393244984A400BEE00E /* ViewController.m */; };
+		0113A397244984A400BEE00E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0113A395244984A400BEE00E /* Main.storyboard */; };
+		0113A399244984AB00BEE00E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0113A398244984AB00BEE00E /* Assets.xcassets */; };
+		0113A39C244984AB00BEE00E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0113A39A244984AB00BEE00E /* LaunchScreen.storyboard */; };
+		0113A39F244984AB00BEE00E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0113A39E244984AB00BEE00E /* main.m */; };
+		0113A3A72449870500BEE00E /* PathItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0113A3A62449870500BEE00E /* PathItem.m */; };
+		01ED5074244988360026E666 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01ED5073244988360026E666 /* TableViewController.m */; };
+		01ED507724498A740026E666 /* ipad user info.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01ED507624498A740026E666 /* ipad user info.pdf */; };
+		01ED507924498A810026E666 /* apple watch user info.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01ED507824498A810026E666 /* apple watch user info.pdf */; };
+		01ED507C244990180026E666 /* Section.m in Sources */ = {isa = PBXBuildFile; fileRef = 01ED507B244990180026E666 /* Section.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0113A38C244984A400BEE00E /* 39. UIWebView 2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "39. UIWebView 2020.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0113A38F244984A400BEE00E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0113A390244984A400BEE00E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0113A392244984A400BEE00E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0113A393244984A400BEE00E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0113A396244984A400BEE00E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0113A398244984AB00BEE00E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0113A39B244984AB00BEE00E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0113A39D244984AB00BEE00E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0113A39E244984AB00BEE00E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0113A3A52449870500BEE00E /* PathItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PathItem.h; sourceTree = "<group>"; };
+		0113A3A62449870500BEE00E /* PathItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PathItem.m; sourceTree = "<group>"; };
+		01ED5072244988360026E666 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		01ED5073244988360026E666 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		01ED507624498A740026E666 /* ipad user info.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "ipad user info.pdf"; path = "../../../../../Downloads/ipad user info.pdf"; sourceTree = "<group>"; };
+		01ED507824498A810026E666 /* apple watch user info.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "apple watch user info.pdf"; path = "../../../../../Downloads/apple watch user info.pdf"; sourceTree = "<group>"; };
+		01ED507A244990180026E666 /* Section.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Section.h; sourceTree = "<group>"; };
+		01ED507B244990180026E666 /* Section.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Section.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0113A389244984A400BEE00E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0113A383244984A400BEE00E = {
+			isa = PBXGroup;
+			children = (
+				0113A38E244984A400BEE00E /* 39. UIWebView 2020 */,
+				0113A38D244984A400BEE00E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0113A38D244984A400BEE00E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0113A38C244984A400BEE00E /* 39. UIWebView 2020.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0113A38E244984A400BEE00E /* 39. UIWebView 2020 */ = {
+			isa = PBXGroup;
+			children = (
+				01ED507524498A650026E666 /* Files */,
+				0113A3A52449870500BEE00E /* PathItem.h */,
+				0113A3A62449870500BEE00E /* PathItem.m */,
+				01ED507A244990180026E666 /* Section.h */,
+				01ED507B244990180026E666 /* Section.m */,
+				0113A38F244984A400BEE00E /* AppDelegate.h */,
+				0113A390244984A400BEE00E /* AppDelegate.m */,
+				0113A392244984A400BEE00E /* ViewController.h */,
+				0113A393244984A400BEE00E /* ViewController.m */,
+				01ED5072244988360026E666 /* TableViewController.h */,
+				01ED5073244988360026E666 /* TableViewController.m */,
+				0113A395244984A400BEE00E /* Main.storyboard */,
+				0113A398244984AB00BEE00E /* Assets.xcassets */,
+				0113A39A244984AB00BEE00E /* LaunchScreen.storyboard */,
+				0113A39D244984AB00BEE00E /* Info.plist */,
+				0113A39E244984AB00BEE00E /* main.m */,
+			);
+			path = "39. UIWebView 2020";
+			sourceTree = "<group>";
+		};
+		01ED507524498A650026E666 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				01ED507824498A810026E666 /* apple watch user info.pdf */,
+				01ED507624498A740026E666 /* ipad user info.pdf */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0113A38B244984A400BEE00E /* 39. UIWebView 2020 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0113A3A2244984AB00BEE00E /* Build configuration list for PBXNativeTarget "39. UIWebView 2020" */;
+			buildPhases = (
+				0113A388244984A400BEE00E /* Sources */,
+				0113A389244984A400BEE00E /* Frameworks */,
+				0113A38A244984A400BEE00E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "39. UIWebView 2020";
+			productName = "39. UIWebView 2020";
+			productReference = 0113A38C244984A400BEE00E /* 39. UIWebView 2020.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0113A384244984A400BEE00E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Dmitry Marchenko";
+				TargetAttributes = {
+					0113A38B244984A400BEE00E = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 0113A387244984A400BEE00E /* Build configuration list for PBXProject "39. UIWebView 2020" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0113A383244984A400BEE00E;
+			productRefGroup = 0113A38D244984A400BEE00E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0113A38B244984A400BEE00E /* 39. UIWebView 2020 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0113A38A244984A400BEE00E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0113A39C244984AB00BEE00E /* LaunchScreen.storyboard in Resources */,
+				01ED507724498A740026E666 /* ipad user info.pdf in Resources */,
+				0113A399244984AB00BEE00E /* Assets.xcassets in Resources */,
+				01ED507924498A810026E666 /* apple watch user info.pdf in Resources */,
+				0113A397244984A400BEE00E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0113A388244984A400BEE00E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0113A394244984A400BEE00E /* ViewController.m in Sources */,
+				0113A3A72449870500BEE00E /* PathItem.m in Sources */,
+				0113A39F244984AB00BEE00E /* main.m in Sources */,
+				01ED5074244988360026E666 /* TableViewController.m in Sources */,
+				0113A391244984A400BEE00E /* AppDelegate.m in Sources */,
+				01ED507C244990180026E666 /* Section.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0113A395244984A400BEE00E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0113A396244984A400BEE00E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0113A39A244984AB00BEE00E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0113A39B244984AB00BEE00E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0113A3A0244984AB00BEE00E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0113A3A1244984AB00BEE00E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0113A3A3244984AB00BEE00E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "39. UIWebView 2020/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DM.-9--UIWebView-2020";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0113A3A4244984AB00BEE00E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "39. UIWebView 2020/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DM.-9--UIWebView-2020";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0113A387244984A400BEE00E /* Build configuration list for PBXProject "39. UIWebView 2020" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0113A3A0244984AB00BEE00E /* Debug */,
+				0113A3A1244984AB00BEE00E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0113A3A2244984AB00BEE00E /* Build configuration list for PBXNativeTarget "39. UIWebView 2020" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0113A3A3244984AB00BEE00E /* Debug */,
+				0113A3A4244984AB00BEE00E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0113A384244984A400BEE00E /* Project object */;
+}
